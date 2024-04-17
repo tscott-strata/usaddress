@@ -53,7 +53,7 @@ usaddress uses [parserator](https://github.com/datamade/parserator), a library f
 To build a development version of usaddress on your machine, run the following code in your command line:
   
   ```
-  git clone https://github.com/datamade/usaddress.git  
+  git clone https://github.com/tscott-strata/usaddress.git  
   cd usaddress  
   pip install -r requirements.txt  
   python setup.py develop  
@@ -66,11 +66,11 @@ Then run the testing suite to confirm that everything is working properly:
    nosetests .
    ```
    
-Having trouble building the code? [Open an issue](https://github.com/datamade/usaddress/issues/new) and we'd be glad to help you troubleshoot.
+Having trouble building the code? [Open an issue](https://github.com/tscott-strata/usaddress/issues/new) and we'd be glad to help you troubleshoot.
 
 ### Adding new training data
 
-If usaddress is consistently failing on particular address patterns, you can adjust the parser's behavior by adding new training data to the model. [Follow our guide in the training directory](https://github.com/datamade/usaddress/blob/master/training/README.md), and be sure to make a pull request so that we can incorporate your contribution into our next release!
+If usaddress is consistently failing on particular address patterns, you can adjust the parser's behavior by adding new training data to the model. [Follow our guide in the training directory](https://github.com/tscott-strata/usaddress/blob/master/training/README.md), and be sure to make a pull request so that we can incorporate your contribution into our next release!
 
 ## Important links
 
@@ -78,11 +78,12 @@ If usaddress is consistently failing on particular address patterns, you can adj
 * Python Package Distribution: https://pypi.python.org/pypi/usaddress
 * Python Package Documentation: https://usaddress.readthedocs.io/
 * API Documentation: https://parserator.datamade.us/api-docs
-* Repository: https://github.com/datamade/usaddress
-* Issues: https://github.com/datamade/usaddress/issues
+* Repository: https://github.com/tscott-strata/usaddress
+* Issues: https://github.com/tscott-strata/usaddress/issues
 * Blog post: http://datamade.us/blog/parsing-addresses-with-usaddress
 
 ## Team
+This repository was forked from [DataMade](https://github.com/tscott-strata/usaddress)
 
 * [Forest Gregg](https://github.com/fgregg), DataMade
 * [Cathy Deng](https://github.com/cathydeng), DataMade
